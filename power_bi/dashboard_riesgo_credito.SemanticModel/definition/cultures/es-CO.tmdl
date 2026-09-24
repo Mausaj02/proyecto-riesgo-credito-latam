@@ -1,0 +1,2543 @@
+cultureInfo es-CO
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "creditos_latam_limpio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "creditos latam limpio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "credito latam limpio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "creditos_latam_limpio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.ID_credito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "ID_Credito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID credito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Credito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.person_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "person_age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "person_age": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "person oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "person phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "person era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "person epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.person_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "person_income"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "person_income": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "person revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "person salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.person_home_ownership": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "person_home_ownership"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person home ownership": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "person_home_ownership": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ownership": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "home ownership": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "person home possession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "person home tenure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "person home proprietorship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "home possession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "home tenure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "home proprietorship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "person home title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "possession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tenure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "proprietorship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Tipo Vivienda": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.person_emp_length": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "person_emp_length"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person emp length": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "person_emp_length": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "person emp measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "person emp extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "person emp interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "person emp distance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "person emp span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "person emp dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "person emp size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "person emp stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "person emp quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "person emp piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "Años Laborales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_intent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_intent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan intent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_intent": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "intent": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "concentrating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "loan intention": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "Destino Crédito": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_grade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_grade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan grade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_grade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "grade": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loan evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "loan score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_amnt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_amnt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan amnt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_amnt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_int_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_int_rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan int rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_int_rate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "loan int degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan int frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan int percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan int ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan int quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan int amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "loan int proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "loan int speed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "loan int level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "loan int scale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loan category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loan importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loan prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "loan prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "loan condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "loan class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.loan_percent_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "loan_percent_income"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan percent income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_percent_income": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "percent income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loan percent revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loan percent salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "percent revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "percent salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan percent pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "percent pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.cb_person_default_on_file": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "cb_person_default_on_file"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cb person default on file": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cb_person_default_on_file": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "default": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "person default": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cb person default": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.cb_person_cred_hist_length": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "cb_person_cred_hist_length"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cb person cred hist length": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cb_person_cred_hist_length": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cb person cred hist measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cb person cred hist extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cb person cred hist interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "cb person cred hist distance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cb person cred hist span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cb person cred hist dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cb person cred hist size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cb person cred hist stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "cb person cred hist quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "cb person cred hist piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.ratio_DTI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "Ratio_DTI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ratio DTI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ratio_DTI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "DTI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.indicador_default": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "Indicador_Default"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicador default": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Indicador_Default": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.nivel_riesgo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "Nivel_Riesgo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nivel riesgo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nivel_Riesgo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medidas riesgo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medida riesgo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "_Medidas_Riesgo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.tabla_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "TablaMedidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "tabla medida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TablaMedidas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.creditos_en_default": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Creditos en Default"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "creditos en default": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.monto_total_desembolsado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Monto Total Desembolsado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monto total desembolsado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "monto aggregate desembolsado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "monto overall desembolsado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Monto USD": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Monto Total": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.ratio_DTI_promedio_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Ratio DTI Promedio %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ratio DTI promedio %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ratio dti promedio percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "ratio dti promedio pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% Ratio DTI Promedio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.tasa_de_default_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Tasa de Default %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tasa de default %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tasa de default percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "tasa de default pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.tasa_interes_promedio_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Tasa Interes Promedio %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tasa interes promedio %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tasa intere promedio percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "tasa intere promedio pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% Tasa Intéres Prom": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medidas_riesgo.total_creditos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas_Riesgo",
+			          "ConceptualProperty": "Total Creditos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total creditos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall credito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Créditos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio.rango_salarial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "creditos_latam_limpio",
+			          "ConceptualProperty": "Rango_Salarial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rango salarial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rango_Salarial": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "creditos_latam_limpio_has_medidas_riesgo_total_creditos": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.total_creditos": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.total_creditos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.total_creditos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_total_creditos"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_medidas_riesgo_tasa_interes_promedio_": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.tasa_interes_promedio_": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.tasa_interes_promedio_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.tasa_interes_promedio_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_tasa_interes_promedio_"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_medidas_riesgo_tasa_de_default_": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.tasa_de_default_": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.tasa_de_default_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.tasa_de_default_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_tasa_de_default_"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_medidas_riesgo_ratio_DTI_promedio_": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.ratio_DTI_promedio_": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.ratio_DTI_promedio_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.ratio_DTI_promedio_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_ratio_DTI_promedio_"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_medidas_riesgo_monto_total_desembolsado": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.monto_total_desembolsado": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.monto_total_desembolsado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.monto_total_desembolsado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_monto_total_desembolsado"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_medidas_riesgo_creditos_en_default": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "medidas_riesgo.creditos_en_default": {
+			          "Target": {
+			            "Entity": "medidas_riesgo.creditos_en_default"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "medidas_riesgo.creditos_en_default"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_creditos_en_default"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_nivel_riesgo": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.nivel_riesgo": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.nivel_riesgo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.nivel_riesgo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_nivel_riesgos"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_indicador_default": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.indicador_default": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.indicador_default"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.indicador_default"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_indicador_defaults"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_ratio_DTI": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.ratio_DTI": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.ratio_DTI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.ratio_DTI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_ratio_DTI"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_cb_person_cred_hist_length": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.cb_person_cred_hist_length": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.cb_person_cred_hist_length"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.cb_person_cred_hist_length"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_cb_person_cred_hist_lengths"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_cb_person_default_on_file": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.cb_person_default_on_file": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.cb_person_default_on_file"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.cb_person_default_on_file"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_cb_person_default_on_file"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_percent_income": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_percent_income": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_percent_income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_percent_income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_percent_incomes"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_status": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_status": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_statuses"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_int_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_int_rate": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_int_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_int_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_int_rates"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_amnt": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_amnt": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_amnt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_amnt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_amnts"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_grade": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_grade": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_grade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_grade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_grades"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_loan_intent": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.loan_intent": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.loan_intent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.loan_intent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_loan_intents"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_person_emp_length": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.person_emp_length": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.person_emp_length"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.person_emp_length"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_person_emp_lengths"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_person_home_ownership": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.person_home_ownership": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.person_home_ownership"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.person_home_ownership"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_person_home_ownerships"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_person_income": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.person_income": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.person_income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.person_income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_person_incomes"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_person_age": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.person_age": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.person_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.person_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_person_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "creditos_latam_limpio.person_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "person_age_indicates_how_old_creditos_latam_limpios_are"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_ID_credito": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.ID_credito": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.ID_credito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.ID_credito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_ID_creditos"
+			        }
+			      ]
+			    },
+			    "creditos_latam_limpio_has_rango_salarial": {
+			      "Binding": {
+			        "ConceptualEntity": "creditos_latam_limpio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "creditos_latam_limpio": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio"
+			          }
+			        },
+			        "creditos_latam_limpio.rango_salarial": {
+			          "Target": {
+			            "Entity": "creditos_latam_limpio.rango_salarial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "creditos_latam_limpio"
+			            },
+			            "Object": {
+			              "Role": "creditos_latam_limpio.rango_salarial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "creditos_latam_limpios_have_rango_salarials"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

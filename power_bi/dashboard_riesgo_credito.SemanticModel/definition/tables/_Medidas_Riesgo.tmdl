@@ -1,0 +1,40 @@
+/// Tabla contenedora de medidas de riesgo de credito
+table _Medidas_Riesgo
+	lineageTag: f897eb6f-024e-4d64-8f85-065448878195
+
+	measure 'Creditos en Default' = SUM('creditos_latam_limpio'[Indicador_Default])
+		formatString: #,##0
+		lineageTag: 5cfaa7e5-9ac5-4a99-b787-652020ee17e3
+
+	measure 'Monto Total Desembolsado' = SUM('creditos_latam_limpio'[loan_amnt])
+		formatString: $#,##0.00
+		lineageTag: ba5fa4d0-fa3c-4e67-9058-f57b832e459a
+
+	measure 'Ratio DTI Promedio %' = DIVIDE(AVERAGE('creditos_latam_limpio'[Ratio_DTI]), 10000)
+		formatString: 0.00%
+		lineageTag: 1644fb44-a03c-4f79-b584-25bbe07e7b8c
+
+	measure 'Tasa de Default %' = DIVIDE([Creditos en Default], [Total Creditos], 0)
+		formatString: 0.00%
+		lineageTag: 3d5ba2d3-9346-4edb-b1b5-e7321666422f
+
+	measure 'Tasa Interes Promedio %' = DIVIDE(AVERAGE('creditos_latam_limpio'[loan_int_rate]), 10000)
+		formatString: 0.00%
+		lineageTag: 0172aea9-8b18-47ef-98a4-404736fe17fe
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Creditos' = COUNTA('creditos_latam_limpio'[ID_Credito])
+		formatString: #,##0
+		lineageTag: ccbe1644-7db7-4c35-abe0-4b027179f801
+
+	column TablaMedidas
+		isHidden
+		lineageTag: c666c15b-457c-433d-9862-4e3ce9e8310c
+		isNameInferred
+		sourceColumn: [TablaMedidas]
+
+	partition _Medidas_Riesgo = calculated
+		mode: import
+		source = ROW("TablaMedidas", 1)
+

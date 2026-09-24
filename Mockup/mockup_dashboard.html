@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup UI/UX - Monitor de Riesgo Crediticio LATAM</title>
+    <!-- Fuente Inter para acabado tipográfico premium de FinTech -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-canvas: #f4f6f9;
+            --panel-bg: #ffffff;
+            --primary-navy: #0f172a;
+            --secondary-blue: #2563eb;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            
+            /* Semaforización de Riesgo */
+            --risk-low: #10b981;
+            --risk-medium: #f59e0b;
+            --risk-high: #ef4444;
+            --risk-high-bg: #fef2f2;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            padding: 24px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Contenedor del Lienzo Power BI (16:9 Aspect Ratio) */
+        .powerbi-canvas {
+            width: 100%;
+            max-width: 1400px;
+            background-color: var(--bg-canvas);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* 1. HEADER Y FILTROS */
+        .header-panel {
+            background: var(--panel-bg);
+            border-radius: 12px;
+            padding: 20px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .brand-title h1 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-navy);
+            letter-spacing: -0.5px;
+        }
+
+        .brand-title p {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .slicers-container {
+            display: flex;
+            gap: 12px;
+        }
+
+        .slicer-box {
+            background: var(--bg-canvas);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-size: 12px;
+            color: var(--text-main);
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .slicer-box span {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        /* 2. FAJA DE KPIS */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+        }
+
+        .kpi-card {
+            background: var(--panel-bg);
+            border-radius: 12px;
+            padding: 18px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background-color: var(--secondary-blue);
+        }
+
+        .kpi-card.danger::before { background-color: var(--risk-high); }
+        .kpi-card.warning::before { background-color: var(--risk-medium); }
+
+        .kpi-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .kpi-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-navy);
+            margin-top: 8px;
+        }
+
+        .kpi-subtext {
+            font-size: 11px;
+            color: var(--risk-high);
+            font-weight: 600;
+            margin-top: 4px;
+        }
+
+        /* 3. GRILLA DE GRÁFICOS Y MATRIZ */
+        .charts-row-1 {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr 1fr;
+            gap: 16px;
+        }
+
+        .charts-row-2 {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 16px;
+        }
+
+        .chart-box {
+            background: var(--panel-bg);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary-navy);
+        }
+
+        .chart-placeholder {
+            flex: 1;
+            min-height: 220px;
+            background-color: #fafafa;
+            border: 1px dashed var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-muted);
+            font-size: 12px;
+            gap: 6px;
+        }
+
+        /* TABLA / MATRIZ DESIGN */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        th {
+            background-color: #f8fafc;
+            color: var(--text-muted);
+            text-align: left;
+            padding: 10px;
+            font-weight: 600;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tag-risk {
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .tag-high { background-color: var(--risk-high-bg); color: var(--risk-high); }
+        .tag-medium { background-color: #fffbe3; color: var(--risk-medium); }
+        .tag-low { background-color: #e6f4ea; color: var(--risk-low); }
+
+    </style>
+</head>
+<body>
+
+    <div class="powerbi-canvas">
+        
+        <!-- ZONA 1: HEADER & FILTROS -->
+        <div class="header-panel">
+            <div class="brand-title">
+                <h1>Monitor de Riesgo Crediticio y Morosidad</h1>
+                <p>Portafolio FinTech LATAM • Evaluación de Exposición, DTI y Defaults</p>
+            </div>
+            <div class="slicers-container">
+                <div class="slicer-box">
+                    <span>Segmentador 1</span>
+                    Nivel de Riesgo (Todos) ▼
+                </div>
+                <div class="slicer-box">
+                    <span>Segmentador 2</span>
+                    Tipo Vivienda (Todos) ▼
+                </div>
+                <div class="slicer-box">
+                    <span>Segmentador 3</span>
+                    Propósito Crédito ▼
+                </div>
+            </div>
+        </div>
+
+        <!-- ZONA 2: TARJETAS KPI (MEDIDAS DAX) -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-label">Monto Desembolsado</div>
+                <div class="kpi-value">$328.08M</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Total Créditos</div>
+                <div class="kpi-value">32,581</div>
+            </div>
+            <div class="kpi-card warning">
+                <div class="kpi-label">Créditos en Default</div>
+                <div class="kpi-value">7,108</div>
+            </div>
+            <div class="kpi-card danger">
+                <div class="kpi-label">Tasa de Default %</div>
+                <div class="kpi-value">21.82%</div>
+                <div class="kpi-subtext">▲ Alto Nivel de Riesgo</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Ratio DTI Promedio %</div>
+                <div class="kpi-value">17.02%</div>
+            </div>
+        </div>
+
+        <!-- ZONA 3: FILA 1 DE GRÁFICOS Y MATRIZ -->
+        <div class="charts-row-1">
+            
+            <!-- Gráfico 1 -->
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div class="chart-title">Default por Tipo de Vivienda</div>
+                </div>
+                <div class="chart-placeholder">
+                    <strong>[Gráfico de Columnas Clustered]</strong>
+                    <span>Eje X: person_home_ownership</span>
+                    <span>Eje Y: Tasa de Default %</span>
+                </div>
+            </div>
+
+            <!-- Gráfico 2: Matriz -->
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div class="chart-title">Matriz Analítica de Riesgo de Cartera</div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nivel Riesgo</th>
+                            <th>Créditos</th>
+                            <th>Monto USD</th>
+                            <th>Tasa Default %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="tag-risk tag-high">Riesgo Alto</span></td>
+                            <td>12,410</td>
+                            <td>$128.5M</td>
+                            <td><strong>38.40%</strong></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tag-risk tag-medium">Riesgo Medio</span></td>
+                            <td>11,100</td>
+                            <td>$112.1M</td>
+                            <td><strong>14.20%</strong></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tag-risk tag-low">Riesgo Bajo</span></td>
+                            <td>9,071</td>
+                            <td>$87.48M</td>
+                            <td><strong>5.10%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Gráfico 3 -->
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div class="chart-title">Monto por Destino Crédito</div>
+                </div>
+                <div class="chart-placeholder">
+                    <strong>[Gráfico de Barras Horizontales]</strong>
+                    <span>Eje Y: loan_intent</span>
+                    <span>Eje X: Monto Desembolsado</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ZONA 4: FILA 2 DE GRÁFICOS AVANZADOS -->
+        <div class="charts-row-2">
+            
+            <!-- Gráfico 4 -->
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div class="chart-title">Dispersión: Ratio DTI vs. Tasa de Interés Cobrada</div>
+                </div>
+                <div class="chart-placeholder">
+                    <strong>[Gráfico de Dispersión / Scatter]</strong>
+                    <span>Eje X: Ratio_DTI | Eje Y: loan_int_rate</span>
+                    <span>Color Burbuja: Nivel_Riesgo</span>
+                </div>
+            </div>
+
+            <!-- Gráfico 5 -->
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div class="chart-title">Morosidad por Antigüedad Laboral</div>
+                </div>
+                <div class="chart-placeholder">
+                    <strong>[Gráfico Combinado Líneas y Columnas]</strong>
+                    <span>Eje X: person_emp_length</span>
+                    <span>Columnas: Total Créditos | Línea: Tasa Default %</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

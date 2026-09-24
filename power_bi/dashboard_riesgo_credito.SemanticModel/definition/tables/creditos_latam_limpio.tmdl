@@ -1,0 +1,157 @@
+table creditos_latam_limpio
+	lineageTag: 9040ccbf-a676-4bbd-b3ad-0cbc9d2b030d
+
+	column ID_Credito
+		dataType: string
+		lineageTag: 47e8cae6-137b-4762-bef9-ccae86c86570
+		summarizeBy: none
+		sourceColumn: ID_Credito
+
+		annotation SummarizationSetBy = Automatic
+
+	column person_age
+		dataType: int64
+		formatString: 0
+		lineageTag: f41cb992-a0b7-4e42-9018-13f52b43bc5b
+		summarizeBy: sum
+		sourceColumn: person_age
+
+		annotation SummarizationSetBy = Automatic
+
+	column person_income
+		dataType: int64
+		formatString: 0
+		lineageTag: 11c6c2bf-221f-4cc5-8412-5c882e80dfbf
+		summarizeBy: sum
+		sourceColumn: person_income
+
+		annotation SummarizationSetBy = Automatic
+
+	column person_home_ownership
+		dataType: string
+		lineageTag: e706cb32-733e-4795-9e7e-59bdabf68683
+		summarizeBy: none
+		sourceColumn: person_home_ownership
+
+		annotation SummarizationSetBy = Automatic
+
+	column person_emp_length
+		dataType: int64
+		formatString: 0
+		lineageTag: cdbe2d5a-a9aa-4697-9c02-bd4b43743117
+		summarizeBy: sum
+		sourceColumn: person_emp_length
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_intent
+		dataType: string
+		lineageTag: 15aab89e-0a9a-4d63-b129-bc92bb8e65da
+		summarizeBy: none
+		sourceColumn: loan_intent
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_grade
+		dataType: string
+		lineageTag: c4d1c9ce-ac07-4177-af42-42ec02bfae7a
+		summarizeBy: none
+		sourceColumn: loan_grade
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_amnt
+		dataType: int64
+		formatString: 0
+		lineageTag: 38ac8891-0ee2-4f57-acd3-a097acd742ff
+		summarizeBy: sum
+		sourceColumn: loan_amnt
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_int_rate
+		dataType: int64
+		formatString: 0
+		lineageTag: 68450679-1d67-41ed-8dd4-fa66a7dc68b6
+		summarizeBy: sum
+		sourceColumn: loan_int_rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_status
+		dataType: int64
+		formatString: 0
+		lineageTag: afc87a87-9017-4448-8115-5d35cc0ad3bc
+		summarizeBy: sum
+		sourceColumn: loan_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_percent_income
+		dataType: int64
+		formatString: 0
+		lineageTag: f6362071-f5ec-4562-8329-ecf05b6148ce
+		summarizeBy: sum
+		sourceColumn: loan_percent_income
+
+		annotation SummarizationSetBy = Automatic
+
+	column cb_person_default_on_file
+		dataType: string
+		lineageTag: 771da8ff-00c9-41e4-8814-0b3f98a8160d
+		summarizeBy: none
+		sourceColumn: cb_person_default_on_file
+
+		annotation SummarizationSetBy = Automatic
+
+	column cb_person_cred_hist_length
+		dataType: int64
+		formatString: 0
+		lineageTag: bc646e5e-148d-4cff-a975-39b13ab51de1
+		summarizeBy: sum
+		sourceColumn: cb_person_cred_hist_length
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ratio_DTI
+		dataType: int64
+		formatString: 0
+		lineageTag: 80135178-e7ee-4aea-a22e-7fc1da920754
+		summarizeBy: sum
+		sourceColumn: Ratio_DTI
+
+		annotation SummarizationSetBy = Automatic
+
+	column Indicador_Default
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e3c5c99-34ec-4d04-b333-e56f58c71f68
+		summarizeBy: sum
+		sourceColumn: Indicador_Default
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nivel_Riesgo
+		dataType: string
+		lineageTag: 222ee27d-b6be-4c83-a6a7-255b79ab03ad
+		summarizeBy: none
+		sourceColumn: Nivel_Riesgo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rango_Salarial = SWITCH(TRUE(), ISBLANK('creditos_latam_limpio'[person_income]), "Sin Información", 'creditos_latam_limpio'[person_income] < 20000, "1. Bajo (< $20k)", 'creditos_latam_limpio'[person_income] <= 35000, "2. Medio-Bajo ($20k - $35k)", 'creditos_latam_limpio'[person_income] <= 55000, "3. Medio-Alto ($35k - $55k)", 'creditos_latam_limpio'[person_income] <= 85000, "4. Alto ($55k - $85k)", "5. Muy Alto (> $85k)")
+		dataType: string
+		lineageTag: 72aad191-986f-4d6c-a817-0e7b3c8bb567
+
+	partition creditos_latam_limpio = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\proyecto-riesgo-credito-latam\data\processed\creditos_latam_limpio.csv"),[Delimiter=",", Columns=16, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID_Credito", type text}, {"person_age", Int64.Type}, {"person_income", Int64.Type}, {"person_home_ownership", type text}, {"person_emp_length", Int64.Type}, {"loan_intent", type text}, {"loan_grade", type text}, {"loan_amnt", Int64.Type}, {"loan_int_rate", Int64.Type}, {"loan_status", Int64.Type}, {"loan_percent_income", Int64.Type}, {"cb_person_default_on_file", type text}, {"cb_person_cred_hist_length", Int64.Type}, {"Ratio_DTI", Int64.Type}, {"Indicador_Default", Int64.Type}, {"Nivel_Riesgo", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

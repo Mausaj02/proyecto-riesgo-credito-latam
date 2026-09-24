@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "dashboard_riesgo_credito"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5f348070-2a7f-42da-a1ba-d73d54de3255"
+  }
+}
