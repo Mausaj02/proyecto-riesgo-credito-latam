@@ -1526,7 +1526,7 @@ cultureInfo es-CO
 			          }
 			        },
 			        {
-			          "Monto USD": {
+			          "Monto Total": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1536,7 +1536,7 @@ cultureInfo es-CO
 			          }
 			        },
 			        {
-			          "Monto Total": {
+			          "Monto USD": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
