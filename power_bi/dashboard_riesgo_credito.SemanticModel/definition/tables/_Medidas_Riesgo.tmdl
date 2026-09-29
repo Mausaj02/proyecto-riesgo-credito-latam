@@ -28,6 +28,18 @@ table _Medidas_Riesgo
 		formatString: #,##0
 		lineageTag: ccbe1644-7db7-4c35-abe0-4b027179f801
 
+	measure Tasa_Mora_90_Dias =
+			DIVIDE(
+			    CALCULATE(
+			        SUM(creditos_latam_limpio[loan_amnt]),
+			        creditos_latam_limpio[Indicador_Default] = 1
+			    ),
+			    SUM(creditos_latam_limpio[loan_amnt]),
+			    0
+			)
+		formatString: 0.00%
+		lineageTag: 8d6ac0ad-ad3b-457f-9b4d-d14da1b3699e
+
 	column TablaMedidas
 		isHidden
 		lineageTag: c666c15b-457c-433d-9862-4e3ce9e8310c
